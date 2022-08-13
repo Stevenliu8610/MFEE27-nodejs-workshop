@@ -8,6 +8,4 @@ let arr = [
     { name: 'Anna', age: 28 }
   ];
 
-let age = [];
-
 
