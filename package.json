@@ -1,0 +1,24 @@
+{
+  "name": "nodejs-workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "filter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Stevenliu8610/MFEE27-nodejs-workshop-15.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Stevenliu8610/MFEE27-nodejs-workshop-15/issues"
+  },
+  "homepage": "https://github.com/Stevenliu8610/MFEE27-nodejs-workshop-15#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "moment": "^2.29.4"
+  }
+}
