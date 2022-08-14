@@ -5,8 +5,7 @@ const moment = require('moment');
 const fs = require('fs/promises');
 
 
-//定義讀取檔案
-// fs.readFile('stock.txt', 'utf8').then((data) => {return data});
+//讀取檔案
 fs.readFile('stock.txt', 'utf-8')
   .then((data) => {
     console.log('promise', data);
