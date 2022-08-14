@@ -22,6 +22,12 @@ let queryDate = moment().format('YYYYMMDD'); //'20220814';
 // axios.get(url, 設定)
 (async () => {
   try {
+    let queryNameResponse = await axios.get('https://www.twse.com.tw/zh/api/codeQuery?query=2330')
+
+
+
+
+
     let stockNo = await fs.readFile('stock.txt', 'utf-8');
     let response = await axios.get(`https://www.twse.com.tw/exchangeReport/STOCK_DAY`, {
       params: {
